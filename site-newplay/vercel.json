@@ -1,3 +1,6 @@
 {
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/newplay/:path*", "destination": "/:path*" }
+  ]
 }
